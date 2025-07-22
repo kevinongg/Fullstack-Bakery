@@ -1,0 +1,91 @@
+.brand {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.baked-goods-container {
+  padding: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.baked-goods {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: darkred;
+  color: white;
+  height: 40px;
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.main-info {
+  display: flex;
+}
+
+h1 {
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 10px;
+}
+
+.lorem {
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 10px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90px;
+  margin: 10px;
+  font-style: oblique;
+  background-color: lightgray;
+}
+
+.quote {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+.caption {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 100%;
+}
